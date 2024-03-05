@@ -162,13 +162,13 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set('Group A', 'Group B')
+    answers["(a)"] = {'Group A', 'Group B'}
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "Single linkage clustering aims to minimize the distance between the closest points in two separate clusters."
 
     # type: set
-    answers["(b)"] = set('Group A', 'Group C')
+    answers["(b)"] = {'Group A', 'Group C'}
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "Complete link clustering considers the farthest points between clusters for merging decisions, aiming to form more compact and well-separated clusters by ensuring all points in a cluster are relatively close to all points in another cluster before merging."
@@ -183,46 +183,46 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set('B', 'C', 'E', 'F', 'I', 'J', 'L', 'M')
+    answers["(a) core"] = {'B', 'C', 'E', 'F', 'I', 'J', 'L', 'M'}
 
     # type: set
-    answers["(a) boundary"] = set('D', 'G')
+    answers["(a) boundary"] = {'D', 'G'}
 
     # type: set
-    answers["(a) noise"] = set('A', 'H')
+    answers["(a) noise"] = {'A', 'H'}
 
     # type: set
-    answers["(b) cluster 1"] = set('D', 'B', 'C', 'E', 'F', 'G')
+    answers["(b) cluster 1"] = {'D', 'B', 'C', 'E', 'F', 'G'}
 
     # type: set
-    answers["(b) cluster 2"] = set('I', 'J', 'L', 'M')
+    answers["(b) cluster 2"] = {'I', 'J', 'L', 'M'}
 
     # type: set
-    answers["(b) cluster 3"] = set()
+    answers["(b) cluster 3"] = {}
 
     # type: set
-    answers["(b) cluster 4"] = set()
+    answers["(b) cluster 4"] = {}
 
     # type: set
-    answers["(c)-a core"] = set('B','C','D','E','F','G','I','J','L','M')
+    answers["(c)-a core"] = {'B','C','D','E','F','G','I','J','L','M'}
 
     # type: set
-    answers["(c)-a boundary"] = set('A', 'H')
+    answers["(c)-a boundary"] = {'A', 'H'}
 
     # type: set
-    answers["(c)-a noise"] = set()
+    answers["(c)-a noise"] = {}
 
     # type: set
-    answers["(c)-b cluster 1"] = set('B','C','D','E','F','G','H','I','J','L','M')
+    answers["(c)-b cluster 1"] = {'B','C','D','E','F','G','H','I','J','L','M'}
 
     # type: set
-    answers["(c)-b cluster 2"] = set('A')
+    answers["(c)-b cluster 2"] = {'A'}
 
     # type: set
-    answers["(c)-b cluster 3"] = set()
+    answers["(c)-b cluster 3"] = {}
 
     # type: set
-    answers["(c)-b cluster 4"] = set()
+    answers["(c)-b cluster 4"] = {}
 
     return answers
 
